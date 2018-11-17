@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee62c82-bdd5-4930-bdf9-1a98ab92c886" name="Default Changelist" comment="13- Vistas basadas en funciones">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/adopcion/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adopcion/solicitud_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adopcion/solicitud_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adopcion/solicitud_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mascota/mascota_eliminar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/adopcion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/adopcion/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/adopcion/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/adopcion/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/adopcion/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/adopcion/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/mascota/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mascota/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mascota/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mascota/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/mascota/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/mascota/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/adopcion/solicitud_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adopcion/solicitud_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/adopcion/solicitud_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adopcion/solicitud_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mascota/mascota_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mascota/mascota_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mascota/mascota_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mascota/mascota_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,31 +51,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="24" />
-          <entry key="py" value="71" />
+          <entry key="html" value="30" />
+          <entry key="py" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="24" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="30" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="71" />
+          <entry key="Python" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3093" />
+          <entry key="CSS" value="470" />
+          <entry key="HTML" value="5204" />
           <entry key="PLAIN_TEXT" value="121" />
-          <entry key="Python" value="6515" />
+          <entry key="Python" value="6668" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3093" />
-          <entry key="py" value="6515" />
+          <entry key="css" value="470" />
+          <entry key="html" value="5204" />
+          <entry key="py" value="6668" />
           <entry key="txt" value="121" />
         </counts>
       </usages-collector>
@@ -90,70 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+            <state relative-caret-position="255">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/mascota/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1542148188670" expanded="true" signature="101:102" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/adopcion/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/mascota/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <marker date="1542150027396" expanded="true" signature="401:670" ph="..." />
-                <marker date="1542150027396" expanded="true" signature="697:702" ph="..." />
-                <marker date="1542150027396" expanded="true" signature="890:895" ph="..." />
-                <marker date="1542150027396" expanded="true" signature="1296:1301" ph="..." />
-                <marker date="1542150027396" expanded="true" signature="1553:1558" ph="..." />
-                <marker date="1542150027396" expanded="true" signature="1655:1660" ph="..." />
-                <marker date="1542150027396" expanded="true" signature="1835:1840" ph="..." />
-                <marker date="1542150027396" expanded="true" signature="2015:2020" ph="..." />
-              </folding>
+            <state relative-caret-position="-255">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -161,31 +108,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="89" lean-forward="true" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/adopcion/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/mascota/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1542402223486" expanded="true" signature="374:379" ph="..." />
-                <marker date="1542402223486" expanded="true" signature="2686:2688" ph="..." />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_delete.html">
+        <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/mascota/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1542424457443" expanded="true" signature="401:670" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="697:702" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="890:895" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="1296:1301" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="1553:1558" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="1655:1660" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="1835:1840" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="2015:2020" ph="..." />
+                <marker date="1542424457443" expanded="true" signature="2166:2171" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_mostrar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#205#230#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/Style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -196,6 +183,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -215,22 +203,24 @@
         <option value="$PROJECT_DIR$/DjangoEv2/settings.py" />
         <option value="$PROJECT_DIR$/templates/mascota/index.html" />
         <option value="$PROJECT_DIR$/apps/mascota/form.py" />
-        <option value="$PROJECT_DIR$/templates/mascota/mascota_form.html" />
         <option value="$PROJECT_DIR$/apps/mascota/models.py" />
         <option value="$PROJECT_DIR$/DjangoEv2/urls.py" />
-        <option value="$PROJECT_DIR$/templates/mascota/mascota_list.html" />
-        <option value="$PROJECT_DIR$/apps/mascota/views.py" />
-        <option value="$PROJECT_DIR$/apps/mascota/urls.py" />
         <option value="$PROJECT_DIR$/templates/mascota/mascota_eliminar.html" />
         <option value="$PROJECT_DIR$/apps/adopcion/models.py" />
         <option value="$PROJECT_DIR$/apps/mascota/forms.py" />
         <option value="$PROJECT_DIR$/apps/adopcion/forms.py" />
-        <option value="$PROJECT_DIR$/templates/adopcion/solicitud_form.html" />
-        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/apps/adopcion/urls.py" />
         <option value="$PROJECT_DIR$/templates/adopcion/solicitud_delete.html" />
         <option value="$PROJECT_DIR$/apps/adopcion/views.py" />
+        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/static/css/Style.css" />
+        <option value="$PROJECT_DIR$/apps/mascota/views.py" />
+        <option value="$PROJECT_DIR$/templates/adopcion/solicitud_form.html" />
         <option value="$PROJECT_DIR$/templates/adopcion/solicitud_list.html" />
-        <option value="$PROJECT_DIR$/apps/adopcion/urls.py" />
+        <option value="$PROJECT_DIR$/templates/mascota/mascota_list.html" />
+        <option value="$PROJECT_DIR$/templates/mascota/mascota_form.html" />
+        <option value="$PROJECT_DIR$/apps/mascota/urls.py" />
+        <option value="$PROJECT_DIR$/templates/mascota/mascota_mostrar.html" />
       </list>
     </option>
   </component>
@@ -240,7 +230,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-50" />
     <option name="y" value="32" />
     <option name="width" value="1933" />
@@ -285,24 +275,17 @@
               <item name="DjangoEv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoEv2" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="adopcion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoEv2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoEv2" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="mascota" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoEv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoEv2" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoEv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoEv2" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="adopcion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoEv2" type="b2602c69:ProjectViewProjectNode" />
@@ -320,6 +303,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -429,7 +413,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17315437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.17315437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -585,23 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mascota/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="79" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/adopcion/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -613,52 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mascota/forms.py">
+    <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_delete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1542148188670" expanded="true" signature="101:102" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/mascota/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <marker date="1542150027396" expanded="true" signature="401:670" ph="..." />
-            <marker date="1542150027396" expanded="true" signature="697:702" ph="..." />
-            <marker date="1542150027396" expanded="true" signature="890:895" ph="..." />
-            <marker date="1542150027396" expanded="true" signature="1296:1301" ph="..." />
-            <marker date="1542150027396" expanded="true" signature="1553:1558" ph="..." />
-            <marker date="1542150027396" expanded="true" signature="1655:1660" ph="..." />
-            <marker date="1542150027396" expanded="true" signature="1835:1840" ph="..." />
-            <marker date="1542150027396" expanded="true" signature="2015:2020" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -672,29 +597,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="89" lean-forward="true" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/adopcion/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="391">
+          <caret line="73" column="67" lean-forward="true" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1542402223486" expanded="true" signature="374:379" ph="..." />
-            <marker date="1542402223486" expanded="true" signature="2686:2688" ph="..." />
+            <marker date="1542402542179" expanded="true" signature="374:379" ph="..." />
+            <marker date="1542402542179" expanded="true" signature="2686:2688" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mascota/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1542148188670" expanded="true" signature="101:102" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mascota/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1542424457443" expanded="true" signature="401:670" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="697:702" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="890:895" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="1296:1301" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="1553:1558" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="1655:1660" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="1835:1840" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="2015:2020" ph="..." />
+            <marker date="1542424457443" expanded="true" signature="2166:2171" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/mascota/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mascota/mascota_mostrar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#205#230#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adopcion/solicitud_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

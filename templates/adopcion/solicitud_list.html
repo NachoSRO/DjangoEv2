@@ -1,38 +1,63 @@
 {% extends 'base/base.html' %}
 
+{% block title %}
+    Mis Perris - Solicitudes
+{% endblock %}
+
 {% block content %}
 
-<table class="table table-bordered">
-	<thead>
-		<tr>
-			<td>No. Solicitud</td>
-			<td>Adoptante</td>
-			<td>No. Mascotas</td>
-			<td>Razones</td>
-			<td>Acciones</td>
-		</tr>
 
-	</thead>
-	<tbody>
-		{% if object_list %}
-		{% for solicitud in object_list %}
-		<tr>
-			<td>{{ solicitud.id }}</td>
-			<td>{{ solicitud.persona.nombre }} {{solicitud.persona.apellidos}}</td>
-			<td>{{ solicitud.numero_mascotas }}</td>
-			<td>{{ solicitud.razones }}</td>
+    <div class="row">
+        <div class="col-lg-9">
+            <span class="badge badge-primary bag-mascotas">Solicitudes</span>
+        </div>
+        <div class="col-lg-3">
+            <a href="{% url 'solicitud_crear' %}"><button class="btn btn-warning btn-lg" id="btn-solicitud">Agregar Solicitud</button></a>
+        </div>
+    </div>
 
-			<td>
-				<a class="btn btn-primary" href="{% url 'solicitud_editar' solicitud.id %}">Editar</a>
-				<a class="btn btn-danger" href="{% url 'solicitud_delete' solicitud.id %}">Eliminar</a>
-			</td>
-		</tr>
-		{% endfor %}
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Adoptante</th>
+                    <th scope="col">No. Mascotas</th>
+                    <th scope="col">Razones</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
 
-		{% else %}
-		<h1>No hay registros de solicitudes</h1>
-		{% endif %}
-	</tbody>
-</table>
+                {% if object_list %}
+                {% for solicitud in object_list %}
+                <tr>
+                    <td class="table-light">{{ solicitud.id }}</td>
+                    <td class="table-light">{{ solicitud.persona.nombre }} {{solicitud.persona.apellidos}}</td>
+                    <td class="table-light">{{ solicitud.numero_mascotas }}</td>
+                    <td class="table-light">{{ solicitud.razones }}</td>
+                    <td class="table-light"><a class="btn btn-primary" href="{% url 'solicitud_editar' solicitud.id %}">Editar</a></td>
+                    <td class="table-light"><a class="btn btn-danger" href="{% url 'solicitud_delete' solicitud.id %}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+
+                {% else %}
+                <th>Sin Registros</th>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="alert alert-dismissible alert-secondary" id="alert">
+                  <h4 class="alert-heading">Alerta!</h4>
+                  <p class="mb-0">No hay registro de Soliciitudes actualmente</p>
+                </div>
+                    </div>
+                </div>
+                {% endif %}
+            </tbody>
+            </table>
+        </div>
+    </div>
+
 
 {% endblock%}

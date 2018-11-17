@@ -1,40 +1,66 @@
 {% extends 'base/base.html' %}
 
+{% block title %}
+    Mis Perris - Mascotas
+{% endblock %}
+
 {% block content %}
 
-    <table class="table table-bordered">
-        <thead>
+    <div class="row">
+        <div class="col-lg-9">
+            <span class="badge badge-primary bag-mascotas">Mascotas</span>
+        </div>
+        <div class="col-lg-3">
+            <a href="{% url 'mascota_crear' %}"><button class="btn btn-warning btn-lg" id="btn-mascotas">Agregar Mascota</button></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+        <table class="table table-bordered  table-masc">
+        <thead class="thead-dark">
             <tr>
-                <td>#</td>
-                <td>Nombre</td>
-                <td>Sexo</td>
-                <td>Edad</td>
-                <td>Fecha de Rescate</td>
-                <td>Adoptante</td>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Fecha de Rescate</th>
+                <th scope="col">Adoptante</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Eliminar</th>
             </tr>
         </thead>
         <tbody>
             {% if object_list %}
             {% for mascota in object_list%}
             <tr>
-                <td>{{ mascota.id }}</td>
-                <td>{{ mascota.nombre }}</td>
-                <td>{{ mascota.sexo }}</td>
-                <td>{{ mascota.edad_aproximada }}</td>
-                <td>{{ mascota.fecha_rescate }}</td>
-                <td>{{ mascota.persona.nombre }} {{ mascota.persona.apellidos }}</td>
-                <td>
-                    <a class="btn btn-primary" href="{% url 'mascota_editar' mascota.id %}">Editar</a>
-                    <a class="btn btn-danger" href="{% url 'mascota_eliminar' mascota.id %}">Eliminar</a>
-                </td>
+                <td class="table-light">{{ mascota.id }}</td>
+                <td class="table-light">{{ mascota.nombre }}</td>
+                <td class="table-light">{{ mascota.sexo }}</td>
+                <td class="table-light">{{ mascota.edad_aproximada }}</td>
+                <td class="table-light">{{ mascota.fecha_rescate }}</td>
+                <td class="table-light">{{ mascota.persona.nombre }} {{ mascota.persona.apellidos }}</td>
+                <td class="table-light text-center"><a class="btn btn-primary" href="{% url 'mascota_editar' mascota.id %}">Editar</a></td>
+                <td class="table-light text-center"><a class="btn btn-danger" href="{% url 'mascota_eliminar' mascota.id %}">Eliminar</a></td>
+
             </tr>
             {% endfor %}
 
             {% else %}
-            <h1>No hay registro de mascotas</h1>
-
+                <th>Sin Registros</th>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="alert alert-dismissible alert-secondary" id="alert">
+                  <h4 class="alert-heading">Alerta!</h4>
+                  <p class="mb-0">No hay registro de Mascotas actualmente</p>
+                </div>
+                    </div>
+                </div>
             {% endif %}
         </tbody>
-    </table>
+        </table>
+        </div>
+    </div>
 
-{% endblock content %}
+    {% endblock content %}
+
